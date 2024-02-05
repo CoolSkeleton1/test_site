@@ -350,29 +350,6 @@ body {
   color: var(--gray-color);
   margin-bottom: 35px;
 }
-.question__h3.close {
-  margin-bottom: 30px;
-}
-.question__h3.open {
-  margin-bottom: 26px;
-}
-.question__h3.open::before,
-.question__h3.close::before {
-  content: "";
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  margin-right: 15px;
-  background-image: url(../img/arrow_icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.question__h3.open::before {
-  transform: rotate(-90deg);
-}
-.question__h3.close + .question__p {
-  display: none;
-}
 .partners {
   background-color: var(--dark-color);
   margin-top: 145px;
